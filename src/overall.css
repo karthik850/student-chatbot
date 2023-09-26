@@ -1,0 +1,113 @@
+/* .react-chatbot-kit-chat-container{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative !important;
+    width: auto !important;
+    
+} */
+
+.app-chatbot-container {
+
+    position: fixed;
+    /* left: 40px;
+    bottom: calc(100% - 20%); */
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    z-index: 9999;
+    box-shadow: 10px 10px 13px rgba(91, 81, 81, 0.4);
+    border-radius: 5px;
+  }
+
+  .app-chatbot-home{
+    position: fixed;
+    /* left: 40px;
+    bottom: calc(100% - 20%); */
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    z-index: 9999;
+    box-shadow: 10px 10px 13px rgba(91, 81, 81, 0.4);
+    border-radius: 5px;
+  }
+
+  .css-1aquho2-MuiTabs-indicator{
+      display: none !important;
+  }
+
+  .react-chatbot-kit-chat-container {
+    width: 330px;
+    height: 90vh;
+}
+.react-chatbot-kit-chat-inner-container{
+  height: 90%;
+}
+.react-chatbot-kit-chat-message-container{
+  height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .react-chatbot-kit-chat-bot-message{
+    margin-left: 0px;
+  }
+
+  .css-13rcduy{
+    flex-wrap: initial;
+  }
+
+  .countdown-timer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #19b4212e;
+  }
+
+  /* .countdown-time{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 40px;
+  } */
+
+
+
+
+  .countdown {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: anim 1s ease-in-out infinite;
+  }
+  @keyframes anim {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(12);
+      opacity: 0;
+    }
+  }
